@@ -20,7 +20,6 @@
 
 ```bash
 # Control‑Plane에서 실행
-autoChristopher
 curl -sfL https://get.k3s.io | sh -
 sudo cat /var/lib/rancher/k3s/server/node-token  # 토큰 복사
 
