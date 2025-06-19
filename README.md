@@ -50,7 +50,7 @@ cp /etc/rancher/k3s/k3s.yaml ~/.kube/config  # k9s에서 k3s 클러스터 조회
 git clone https://github.com/sungmin306/SDI-Orchestration.git
 cd SDI-Orchestration/profiling/manifest/
 
-# 주석 “직접 설정” 부분(12·13·21·22행) 편집
+# 주석 “직접 설정” 적힌 부분(12·13·21·22행) 편집
 vi tbot-monitoring.yaml
 ```
 
