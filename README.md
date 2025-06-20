@@ -49,7 +49,7 @@ cp /etc/rancher/k3s/k3s.yaml ~/.kube/config  # k9s에서 k3s 클러스터 조회
 git clone https://github.com/sungmin306/SDI-Orchestration.git
 cd SDI-Orchestration/profiling/manifest/
 
-# 주석 “직접 설정” 적힌 부분(12·13·21·22행) 편집
+# 주석 “직접 설정” 적힌 부분(12·13·21·22행) id,pw 설정
 vi tbot-monitoring.yaml
 ```
 
@@ -62,7 +62,7 @@ kubectl apply -f tbot-monitoring.yaml
 컴포넌트 상태는 다음과 같이 확인할 수 있습니다.
 
 ```bash
-kubectl get pods -n tbot-monitoring
+kubectl get pods -n tbot-monitoring # 또는 k9s
 ```
 
 <img src="https://github.com/user-attachments/assets/aadcf3e1-9559-4a5f-856a-77d2cc46bf3e" width="748" height="131"/>
@@ -81,7 +81,7 @@ kubectl get pods -n tbot-monitoring
 
 ```bash
 cd ../../scheduler
-vi sdi-scheduler-deploy.yaml   # 43행 주석에“직접 설정” 적혀있음
+vi sdi-scheduler-deploy.yaml   # 43행 주석에“직접 설정” 적혀있는 부분에 복사한 토큰 값 넣기
 ```
 
 #### 배포
@@ -93,13 +93,14 @@ kubectl apply -f sdi-scheduler-deploy.yaml
 상태 확인:
 
 ```bash
-kubectl get pod -n kube-system
+kubectl get pod -n kube-system # 또는 k9s
 ```
 <img src="https://github.com/user-attachments/assets/ff5c0f17-8394-4487-932e-1e90a319f122" width="567" height="186"/>
 ---
 
 ### 오케스트레이션 엔진&#x20;
 
+#### 배포
 ```bash
 cd ../engine
 kubectl apply -f orchestration-engines-deploy.yaml
