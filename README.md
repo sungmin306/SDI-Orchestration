@@ -96,7 +96,12 @@ kubectl apply -f sdi-scheduler-deploy.yaml
 kubectl get pod -n kube-system # 또는 k9s
 ```
 <img src="https://github.com/user-attachments/assets/ff5c0f17-8394-4487-932e-1e90a319f122" width="567" height="186"/>
----
+
+
+
+스케줄링시 로그(로그 확인 방법 하단 기술)
+<img src="https://github.com/user-attachments/assets/9ef7b440-9236-412a-9f19-db619aaa80d8" width="867" height="55"/>
+
 
 ### 오케스트레이션 엔진&#x20;
 
