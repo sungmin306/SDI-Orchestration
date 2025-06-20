@@ -129,7 +129,7 @@ kubectl get pod -n kube-system # 또는 k9s
 
 스케줄링시 로그(로그 확인 방법 하단 기술)
 
-<img src="https://github.com/user-attachments/assets/85406854-7826-4b2e-b022-adc5bd7b2f23" width="600" height="123"/>
+<img src="https://github.com/user-attachments/assets/85406854-7826-4b2e-b022-adc5bd7b2f23" width="878" height="180"/>
 
 
 
