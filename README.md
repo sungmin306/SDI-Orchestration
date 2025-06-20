@@ -29,6 +29,8 @@ curl -sfL https://get.k3s.io | K3S_URL=https://<CONTROL‑PLANE_IP>:6443 K3S_TOK
 
 ### K9s 설치(선택)&#x20;
 
+파드들의 정보를 손쉽게 확인하기 위해 KETI에서는 설치했습니다. 필수가 아닌 선택입니다.
+
 ```bash
 mkdir k9s && cd k9s
 wget https://github.com/derailed/k9s/releases/download/v0.26.7/k9s_Linux_x86_64.tar.gz
