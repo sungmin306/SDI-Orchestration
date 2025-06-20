@@ -31,7 +31,7 @@
 | 컴포넌트                 | 설명                                                      |
 | :--------------------- | :-------------------------------------------------------- |
 | 🗓️ **sdi-scheduler**     | turtlebot 배터리(wh) 및 위지정보 기반 커스텀 스케줄러           |
-| 🔄 **metric-collector**  | TurtleBot 및 시스템 메트릭을 Metric-Collector 큐에 적재하는 브로커      |
+| 🔄 **metric-collector**  | TurtleBot 및 시스템 메트릭을 Metric-Collector 큐에 적재하는 모듈      |
 | 🗄️ **influxdb**           | 수집된 시계열 메트릭을 영구 저장하는 InfluxDB 데이터베이스     |
 | 📥 **metrics-ingester**   | Metric-Collector 큐에서 메트릭 메시지를 소비해 InfluxDB에 기록         |
 | 🔎 **analysis-engine**    | 다양한 로그 및 메트릭 분석 엔진   |
