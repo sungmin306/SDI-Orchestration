@@ -13,6 +13,20 @@
 3. [로그 확인](#로그-확인)
 
 ---
+## 🛠️ 환경 설정 및 버전
+
+ Control-plane(원격 PC) 의 주요 소프트웨어 및 버전 정보
+
+| 항목                  | 버전 / 세부 정보                         |
+| --------------------- | --------------------------------------- |
+| **ROS 2**             | ros2-jazzy                              |
+| **Kernel**            | Linux 6.11.0-26-generic                |
+| **Architecture**      | x86-64                                  |
+| **Operating System**  | Ubuntu 24.04.2 LTS                      |
+| **k3s**               | v1.32.5+k3s1                            |
+| **Container Runtime** | containerd://2.0.5-k3s1.32              |
+
+
 
 ## 오케스트레이션 구성
 
@@ -67,7 +81,7 @@ kubectl apply -f tbot-monitoring.yaml
 kubectl get pods -n tbot-monitoring # 또는 k9s
 ```
 
-<img src="https://github.com/user-attachments/assets/aadcf3e1-9559-4a5f-856a-77d2cc46bf3e" width="748" height="131"/>
+<img src="https://github.com/user-attachments/assets/aadcf3e1-9559-4a5f-856a-77d2cc46bf3e" width="600" height="105"/>
 ---
 
 ### 스케줄러 컴포넌트&#x20;
@@ -98,7 +112,7 @@ kubectl apply -f sdi-scheduler-deploy.yaml
 ```bash
 kubectl get pod -n kube-system # 또는 k9s
 ```
-<img src="https://github.com/user-attachments/assets/ff5c0f17-8394-4487-932e-1e90a319f122" width="567" height="186"/>
+<img src="https://github.com/user-attachments/assets/ff5c0f17-8394-4487-932e-1e90a319f122" width="600" height="197"/>
 
 
 
@@ -123,7 +137,7 @@ kubectl apply -f orchestration-engines-deploy.yaml
 ```bash
 kubectl get pod -n orchestration-engines   # 또는 k9s
 ```
-<img src="https://github.com/user-attachments/assets/06315652-55db-4e3f-abb3-a73b3b4c914b" width="512" height="60"/>
+<img src="https://github.com/user-attachments/assets/06315652-55db-4e3f-abb3-a73b3b4c914b" width="600" height="70"/>
 
 ---
 
