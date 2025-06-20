@@ -103,6 +103,10 @@ kubectl get pod -n kube-system # 또는 k9s
 <img src="https://github.com/user-attachments/assets/9ef7b440-9236-412a-9f19-db619aaa80d8" width="867" height="55"/>
 
 
+#### 스케줄러 사용법
+sdi-scheduler-test.yaml 파일 6번째줄 처럼 schedulerName: `schedulerName: sdi-scheduler`를 적고 사용하면됩니다.(주석 확인)
+
+
 ### 오케스트레이션 엔진&#x20;
 
 #### 배포
