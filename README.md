@@ -92,7 +92,7 @@ kubectl apply -f tbot-monitoring.yaml
 kubectl get pods -n tbot-monitoring # 또는 k9s
 ```
 
-<img src="https://github.com/user-attachments/assets/aadcf3e1-9559-4a5f-856a-77d2cc46bf3e" width="600" height="105"/>
+<img src="https://github.com/user-attachments/assets/47e675a8-86f8-44a7-be2f-a90d9e9d2f97" width="600" height="84"/>
 ---
 
 ### 스케줄러 컴포넌트&#x20;
@@ -128,7 +128,9 @@ kubectl get pod -n kube-system # 또는 k9s
 
 
 스케줄링시 로그(로그 확인 방법 하단 기술)
-<img src="https://github.com/user-attachments/assets/9ef7b440-9236-412a-9f19-db619aaa80d8" width="867" height="55"/>
+
+<img src="https://github.com/user-attachments/assets/85406854-7826-4b2e-b022-adc5bd7b2f23" width="600" height="123"/>
+
 
 
 #### 스케줄러 사용법
@@ -152,6 +154,14 @@ kubectl get pod -n orchestration-engines   # 또는 k9s
 
 ---
 
+analysis-engine로그(로그 확인 방법 하단 기술)
+
+<img src="https://github.com/user-attachments/assets/6b56f184-ce89-46df-9e9c-5aa159ff1670" width="600" height="330"/>
+
+policy-engine로그(로그 확인 방법 하단 기술)
+
+<img src="https://github.com/user-attachments/assets/c33c062e-4d3b-4690-b5c6-ca052fe09ac4" width="600" height="161"/>
+ 
 ## 로그 확인&#x20;
 > **Tip** 모든 컴포넌트가 Deployment 형태로 실행되므로 자동 생성된 파드 이름 추정할 수 없어 로그 확인 방법을 추가로 작성합니다.
 
