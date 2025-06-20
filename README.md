@@ -47,8 +47,8 @@
 curl -sfL https://get.k3s.io | sh -
 sudo cat /var/lib/rancher/k3s/server/node-token  # 토큰 복사
 
-# Worker(Node/TurtleBot)에서 실행
-curl -sfL https://get.k3s.io | K3S_URL=https://<CONTROL‑PLANE_IP>:6443 K3S_TOKEN=<CONTROL‑PLANE_TOKEN> sh -
+# Worker(Node/TurtleBot)에서 실행, CONTROL-PLANE-IP, CONTROL-PLANE-TOKEN 값 명령어에 넣기
+curl -sfL https://get.k3s.io | K3S_URL=https://<CONTROL‑PLANE-IP>:6443 K3S_TOKEN=<CONTROL‑PLANE-TOKEN> sh -
 ```
 
 ### K9s 설치(선택)&#x20;
