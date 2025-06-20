@@ -75,9 +75,7 @@ kubectl get pods -n tbot-monitoring # 또는 k9s
 #### InfluxDB 토큰 확인 절차
 
  브라우저에서 `http://<CONTROL‑PLANE_IP>:32086` 접속 이후 아래 이미지 대로 따라가시면 됩니다.
-<img src="https://github.com/user-attachments/assets/bd9fa5b8-2ce1-4704-a9cd-590c889259ed" width="504" height="276"/>
-<img src="https://github.com/user-attachments/assets/d9e2fdf1-e38a-4c3a-a3d1-0e9dea6f1261" width="540" height="360"/>
-<img src="https://github.com/user-attachments/assets/df99a4c5-32d4-400e-bd7d-6a42f018b341" width="574" height="197"/>
+ <img src="https://github.com/user-attachments/assets/0a33d31a-ac37-4f2d-9e9a-665ff7abe6b9" width="500" height="778"/>
 
 #### 배포 파일 수정
 
