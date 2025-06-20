@@ -100,7 +100,7 @@ kubectl get pods -n tbot-monitoring # 또는 k9s
 
  브라우저에서 `http://<CONTROL‑PLANE_IP>:32086` 접속 이후 아래 이미지 대로 따라가시면 됩니다.
 
- <img src="https://github.com/user-attachments/assets/ea3d2213-1482-4f09-83f9-3e3725f00151" width="600" height="993"/>
+ <img src="https://github.com/user-attachments/assets/f8725d74-a945-40b3-8b5d-c92d6cfbe68a" width="600" height="993"/>
 
 
 
